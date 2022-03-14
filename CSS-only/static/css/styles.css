@@ -80,6 +80,7 @@ td::before {
     width: 4px;
     height: 4px;
     background-color: #B22027;
+    border-radius: 50%;
 }
 /* end of foreign langauage section */
 
