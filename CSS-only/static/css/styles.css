@@ -1,0 +1,97 @@
+/* style my body */
+body {
+    background-color: lightseagreen;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #B22027;
+}
+/* end of body style */
+
+/* my intro section CSS */
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.head h1 {
+    margin: 0 10px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+/* end of intro section */
+
+
+
+/* start of city section */
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .city {
+        flex-wrap: wrap;
+    };
+}
+
+.city div {
+    margin: 20px;
+}
+
+.city > div > img {
+    width: 200px;
+    height: 200px;
+}
+/* end of city section */
+
+
+
+/* start of foreign language section */
+.foreign-language {
+    display: block;
+    text-align: -webkit-center;
+}
+
+
+.translation-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.translation-table td {
+    border: 1px solid black;
+    padding: 4px;
+}
+/* end of foreign langauage section */
+
+
+
+
+/* start of historical place */
+.historical-places {
+    display: flex;
+}
+@media screen and (max-width: 400px) {
+    .historical-places {
+        flex-wrap: wrap;
+    }
+}
+.cites > div {
+    display: flex;
+    margin: 0 10px;
+}
+.temp {
+    width: 200px;
+    height: 200px;
+}
+/* end of historical place */
