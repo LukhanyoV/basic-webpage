@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.city-info {
+    text-align: justify;
+}
+
 @media screen and (max-width: 400px) {
     .city {
         flex-wrap: wrap;
