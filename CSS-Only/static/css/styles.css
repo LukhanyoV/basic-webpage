@@ -3,6 +3,11 @@ body {
     background-color: lightseagreen;
     color: #000;
 }
+@media screen and (min-width: 600px) {
+    body {
+        margin: 100px;
+    }
+}
 h1, h2, h3, h4, h5, h6 {
     color: #B22027;
 }
@@ -91,6 +96,16 @@ td::before {
 .historical-places {
     display: flex;
 }
+
+.cites > div {
+    display: flex;
+    margin: 0 10px;
+}
+
+.temp {
+    width: 200px;
+    height: 200px;
+}
 @media screen and (max-width: 400px) {
     .historical-places {
         flex-wrap: wrap;
@@ -101,14 +116,9 @@ td::before {
     .swap-sides p {
         margin-left: 10px;
     }
-}
-.cites > div {
-    display: flex;
-    margin: 0 10px;
-}
-
-.temp {
-    width: 200px;
-    height: 200px;
+    .temp {
+        width: 150px;
+        height: 150px;
+    }
 }
 /* end of historical place */
