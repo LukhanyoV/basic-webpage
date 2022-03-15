@@ -1,17 +1,32 @@
 /* style my body */
 body {
-    background-color: lightseagreen;
+    background-color: whitesmoke;
     color: #000;
+    margin: 0;
 }
 @media screen and (min-width: 600px) {
     body {
-        margin: 100px;
+        margin:0 100px;
     }
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #B22027;
+    color: #000;
+}
+.center {
+    display: block;
+    text-align: -webkit-center;
 }
 /* end of body style */
+
+
+/* style my navigation bar */
+.nav {
+    background-color: #000;
+    height: 100px;
+}
+/* end of navigation bar */
+
+
 
 /* my intro section CSS */
 .head {
@@ -39,9 +54,9 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    max-width: 500px;
+    margin: 0 auto;
 }
-
 
 @media screen and (max-width: 400px) {
     .city {
@@ -70,7 +85,15 @@ h1, h2, h3, h4, h5, h6 {
 .translation-table {
     border: 1px solid black;
     border-collapse: collapse;
-    width: 70%;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .translation-table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 80%;
+    }
 }
 
 .translation-table td {
@@ -93,8 +116,26 @@ td::before {
 
 
 /* start of historical place */
+.card {
+    background-color: lightseagreen;
+    border:1px solid #000;
+    margin: 5px;
+    padding-bottom: 10px;
+    box-shadow: 3px 4px rgb(119,136,153, 0.5);
+}
+
+.card-round {
+    background-color: lightseagreen;
+    border:1px solid #000;
+    margin: 5px;
+    padding-bottom: 10px;
+    box-shadow: 3px 4px rgb(119,136,153, 0.5);
+    border-radius: 2%;
+}
+
 .historical-places {
     display: flex;
+    justify-content: space-between;
 }
 
 .cites > div {
