@@ -1,0 +1,21 @@
+.avatar, .city, .temp {
+    width: 250px;
+    height: 200px;
+}
+
+.atat {
+    height: 100%;
+    padding: auto;
+}
+
+.table > div {
+    border: 1px solid black;
+}
+
+.table-head {
+    background-color: black;
+}
+
+.table-head div {
+    color: white;
+}
