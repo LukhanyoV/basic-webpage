@@ -3,10 +3,11 @@ body {
     background-color: whitesmoke;
     color: #000;
     margin: 0;
+    margin-bottom: 10px;
 }
 @media screen and (min-width: 600px) {
     body {
-        margin:0 100px;
+        margin:0 auto;
     }
 }
 h1, h2, h3, h4, h5, h6 {
@@ -19,14 +20,6 @@ h1, h2, h3, h4, h5, h6 {
 /* end of body style */
 
 
-/* style my navigation bar */
-.nav {
-    background-color: #000;
-    height: 100px;
-}
-/* end of navigation bar */
-
-
 
 /* my intro section CSS */
 .head {
@@ -34,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     text-align: -webkit-center;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 10px;
     margin: 0 auto;
 }
@@ -66,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 600px) {
     .city {
-        flex-wrap: wrap;
+        flex-direction: column;
     };
 }
 
@@ -115,19 +108,8 @@ h1, h2, h3, h4, h5, h6 {
 /* start of historical place */
 .card {
     background-color: whitesmoke;
-    border:1px solid #000;
     margin: 5px;
-    padding-bottom: 10px;
-    box-shadow: 3px 4px rgb(119,136,153, 0.5);
-}
-
-.card-round {
-    background-color: whitesmoke;
-    border:1px solid #000;
-    margin: 5px;
-    padding-bottom: 10px;
-    box-shadow: 3px 4px rgb(119,136,153, 0.5);
-    border-radius: 2%;
+    padding-bottom: 15px;
 }
 
 .historical-places {
@@ -142,22 +124,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .temp {
+    margin-left: 10px;
     width: 200px;
     height: 200px;
 }
-@media screen and (max-width: 600px) {
+@media (min-width: 0) and (max-width: 688px) {
     .historical-places {
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .his-info {
+        display: block;
+    }
+    .his-info p {
+        float: right;
+    }
+    .temp {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (min-width: 689) and (max-width: 992px) {
+    .historical-places {
+        flex-wrap: nowrap;
     }
     .swap-sides {
         flex-direction: row-reverse;
     }
     .swap-sides p {
         margin-left: 10px;
-    }
-    .temp {
-        width: 150px;
-        height: 150px;
     }
 }
 /* end of historical place */
