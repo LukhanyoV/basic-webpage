@@ -117,10 +117,20 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
-.cites > div {
+.cites {
+    width: 100%;
+    margin: 10px;
+}
+
+/* .cites > div {
     display: flex;
     margin: 0 10px;
     padding: auto;
+} */
+
+.his-info img {
+    float: left;
+    padding: 0 10px 0px 0px;
 }
 
 .temp {
@@ -132,11 +142,12 @@ h1, h2, h3, h4, h5, h6 {
     .historical-places {
         flex-direction: column;
     }
-    .his-info {
-        display: block;
+    .his-info img {
+        float: left;
     }
-    .his-info p {
-        float: right;
+    .his-info {
+        width: 80%;
+        /* display: flex; */
     }
     .temp {
         width: 150px;
