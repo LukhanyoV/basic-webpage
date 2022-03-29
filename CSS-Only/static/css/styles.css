@@ -137,6 +137,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     height: 200px;
 }
+
+
 @media (min-width: 0) and (max-width: 688px) {
     .head {
         flex-direction: column;
@@ -162,6 +164,13 @@ h1, h2, h3, h4, h5, h6 {
         height: 200px;
     }
 }
+
+@media (min-width: 0) and (max-width: 500px) {
+    .his-info img {
+        float: none;
+    }
+}
+
 @media (min-width: 689px) and (max-width: 992px) {
     .historical-places {
         flex-wrap: nowrap;
