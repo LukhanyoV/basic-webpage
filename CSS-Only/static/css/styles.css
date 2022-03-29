@@ -181,5 +181,16 @@ h1, h2, h3, h4, h5, h6 {
     .swap-sides p {
         margin-left: 10px;
     }
+    .temp {
+        width: 200px;
+        width: 200px;
+    }
+    .cites {
+        padding: 5px;
+    }
+    .cites {
+        width: 100%;
+        margin: 5px;
+    }
 }
 /* end of historical place */
