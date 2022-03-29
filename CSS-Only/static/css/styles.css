@@ -121,12 +121,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px;
 }
 
-/* .cites > div {
-    display: flex;
-    margin: 0 10px;
-    padding: auto;
-} */
-
 .his-info img {
     float: left;
     padding: 0 10px 0px 0px;
@@ -162,6 +156,9 @@ h1, h2, h3, h4, h5, h6 {
     .temp {
         width: 200px;
         height: 200px;
+    }
+    .cites {
+        margin: auto;
     }
 }
 
