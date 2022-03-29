@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     text-align: -webkit-center;
-    flex-direction: column;
     padding: 10px;
     margin: 0 auto;
 }
@@ -139,8 +138,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 200px;
 }
 @media (min-width: 0) and (max-width: 688px) {
+    .head {
+        flex-direction: column;
+    }
     .historical-places {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: -webkit-center;
     }
     .his-info img {
         float: left;
@@ -154,9 +159,12 @@ h1, h2, h3, h4, h5, h6 {
         height: 150px;
     }
 }
-@media (min-width: 689) and (max-width: 992px) {
+@media (min-width: 689px) and (max-width: 992px) {
     .historical-places {
         flex-wrap: nowrap;
+    }
+    .his-info img {
+        float: none;
     }
     .swap-sides {
         flex-direction: row-reverse;
