@@ -1,6 +1,6 @@
 .avatar, .city, .temp {
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .atat {
@@ -26,3 +26,4 @@
     margin-bottom: 20px;
     padding: 4px;
 }
+
