@@ -8,8 +8,8 @@ body {
 
 .container {
     width: 100%;
-    /* margin: 0 auto; */
 }
+
 
 @media screen and (min-width: 600px) {
     body {
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .center {
     display: block;
-    text-align: -webkit-center;
+    /* text-align: -webkit-center; */
 }
 /* end of body style */
 
@@ -76,6 +76,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     height: 200px;
 }
+
+@media (min-width: 700px) {
+    .city {
+        margin: 0;
+    }
+}
 /* end of city section */
 
 
@@ -103,6 +109,15 @@ h1, h2, h3, h4, h5, h6 {
 .translation-table td {
     border: 1px solid black;
     padding: 4px;
+}
+
+@media (min-width: 700px) {
+    .translation-table {
+        width: 100%;
+    }
+    .foreign-language {
+        text-align: start;
+    }
 }
 
 /* end of foreign langauage section */
@@ -194,3 +209,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 /* end of historical place */
+@media (min-width: 700px) {
+    body {
+        margin: 20px;
+    }
+    
+}

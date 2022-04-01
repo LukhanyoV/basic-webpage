@@ -10,17 +10,18 @@
 </head>
 <body>
     <div class="container">
-        <div class="row card">
+        <div class="row card center">
             <div class="col-6 atat">
-                <h1>Lukhanyo Vakele</h1>
+                <h2>Lukhanyo Vakele</h2>
             </div>
             <div class="col-6">
                 <img class="avatar" src="./static/media/potrait.jpeg" alt="A picture of Lukhanyo Vakele and table mountain as a background">
             </div>
         </div>
 
-        <h2>Favourite City</h2>
-        <div class="row card">
+        <div class="row card center">
+            <h2>Favourite City</h2>
+            <h3 class="center">Japan</h3>
             <div class="col-2"></div>
             <div class="col-4">
                 <img class="city" src="./static/media/city-japan.jpg" alt="City of Japan">
@@ -37,71 +38,82 @@
         </div>
 
         <div class="row table card">
-            <h2>Foreign Language</h2>
-            <div class="row table-head">
-                <div class="col-6-sm">English</div>
-                <div class="col-6-sm">Japanese</div>
-            </div>
-            <div class="row">
-                <div class="col-6-sm">Hello</div>
-                <div class="col-6-sm">World</div>
-            </div>
-            <div class="row">
-                <div class="col-6-sm">Hello</div>
-                <div class="col-6-sm">World</div>
-            </div>
-            <div class="row">
-                <div class="col-6-sm">Hello</div>
-                <div class="col-6-sm">World</div>
-            </div>
+            <h2 class="center">Foreign Language</h2>
+            <p class="center">The language that I would like to learn is Japanese</p>
+            <table class="translation-table center">
+                <tr>
+                    <th>English</th>
+                    <th>Japanese</th>
+                </tr>
+                <tr>
+                    <td>Hello Lukhanyo</td>
+                    <td>Konnichiwa Lukhanyo</td>
+                </tr>
+                <tr>
+                    <td>How are you?</td>
+                    <td>Ogenki desu ka?</td>
+                </tr>
+                <tr>
+                    <td>What's your name?</td>
+                    <td>Namae wa nan desu ka?</td>
+                </tr>
+                <tr>
+                    <td>Thank you</td>
+                    <td>Arigatou gozaimasu</td>
+                </tr>
+            </table>
         </div>
 
-        <div class="row card">
-            <h2>Historical Places</h2>
-            <div class="col-4">
-                <h3>Iziko Slave Lodge</h3>
-                <img src="./static/media/iziko-slave-lodge.jpeg" alt="" class="temp">
-                <p>The Slave Lodge was built in 1679, making it the second oldest existing 
-                    colonial structure of the Cape Colony, today known as Cape Town. 
-                    The building was used as a slave lodge until 1811 when it was changed 
-                    into government offices by the new British colonial authorities. 
-                    Slave Lodge is a museum, managed by Iziko Museums of South Africa. 
-                    It became a cultural history museum in 1966, exhibiting mainly the material 
-                    culture of the descendents of the Dutch and British colonists.
-                </p>
-            </div>
-
-            <div class="col-4">
-                <h3>Castle of Good Hope</h3>
-                <img src="./static/media/castle-of-good-hope.jpeg" alt="" class="temp">
-                <p>Built between 1666 and 1679, the Castle is known as the oldest surviving building 
-                    in South Africa and has been the centre of civilian, political and military life 
-                    at the Cape from approximately 1679. The Castle was, however, not the first fort 
-                    to be built at the Cape. A quadrangular (four-pointed) fort was built after the 
-                    arrival of Jan van Riebeeck in 1652 where the Grand Parade and the main Post Office 
-                    are situated today. The paint used on the walls during restoration, is whitewash 
-                    mixed with a coloring agent. The condition of the paint is not due to bad 
-                    workmanship, but to the lack of moisture-resistant methods used during the 
-                    construction of the Castle.
-                </p>
-            </div>
-
-            <div class="col-4">
-                <h3>City Hall</h3>
-                <img src="./static/media/city-hall.jpeg" alt="" class="temp">
-                <p>
-                    The building was designed as the result of a public competition, 
-                    the winning architects being Messrs Harry Austin Reid and Frederick George Green, 
-                    with the contractors being Messrs T. Howard and F. G. Scott. 
-                    Much of the building material, including fixtures and fittings was imported 
-                    from Europe. On February 11, 1990, only hours after his release from prison, 
-                    Nelson Mandela made his first public speech from the balcony of Cape Town City 
-                    Hall. On 24 July 2018, a statue of Nelson Mandela on the balcony overlooking the 
-                    Grand Parade was unveiled. It was on the same spot where he made a speech when 
-                    he was released from prison on 11 February 1990. A 3D computer model of the 
-                    Nelson Mandela Statue was also created. 
-                    The 3D model is based on terrestrial laser scanning and photogrammetry.
-                </p>
+        <div class="row card center">
+            <h2 class="center">Historical Places</h2>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <h3>Iziko Slave Lodge</h3>
+                    <img src="./static/media/iziko-slave-lodge.jpeg" alt="" class="temp">
+                    <p>The Slave Lodge was built in 1679, making it the second oldest existing 
+                        colonial structure of the Cape Colony, today known as Cape Town. 
+                        The building was used as a slave lodge until 1811 when it was changed 
+                        into government offices by the new British colonial authorities. 
+                        Slave Lodge is a museum, managed by Iziko Museums of South Africa. 
+                        It became a cultural history museum in 1966, exhibiting mainly the material 
+                        culture of the descendents of the Dutch and British colonists.
+                    </p>
+                </div>
+    
+                <div class="col-3 heaven">
+                    <h3>Castle of Good Hope</h3>
+                    <img src="./static/media/castle-of-good-hope.jpeg" alt="" class="temp">
+                    <p>Built between 1666 and 1679, the Castle is known as the oldest surviving building 
+                        in South Africa and has been the centre of civilian, political and military life 
+                        at the Cape from approximately 1679. The Castle was, however, not the first fort 
+                        to be built at the Cape. A quadrangular (four-pointed) fort was built after the 
+                        arrival of Jan van Riebeeck in 1652 where the Grand Parade and the main Post Office 
+                        are situated today. The paint used on the walls during restoration, is whitewash 
+                        mixed with a coloring agent. The condition of the paint is not due to bad 
+                        workmanship, but to the lack of moisture-resistant methods used during the 
+                        construction of the Castle.
+                    </p>
+                </div>
+    
+                <div class="col-3">
+                    <h3>City Hall</h3>
+                    <img src="./static/media/city-hall.jpeg" alt="" class="temp">
+                    <p>
+                        The building was designed as the result of a public competition, 
+                        the winning architects being Messrs Harry Austin Reid and Frederick George Green, 
+                        with the contractors being Messrs T. Howard and F. G. Scott. 
+                        Much of the building material, including fixtures and fittings was imported 
+                        from Europe. On February 11, 1990, only hours after his release from prison, 
+                        Nelson Mandela made his first public speech from the balcony of Cape Town City 
+                        Hall. On 24 July 2018, a statue of Nelson Mandela on the balcony overlooking the 
+                        Grand Parade was unveiled. It was on the same spot where he made a speech when 
+                        he was released from prison on 11 February 1990. A 3D computer model of the 
+                        Nelson Mandela Statue was also created. 
+                        The 3D model is based on terrestrial laser scanning and photogrammetry.
+                    </p>
+                </div>
+                <div class="col-1"></div>
             </div>
         </div>
     </div>
