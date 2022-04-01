@@ -59,7 +59,13 @@ th, td {
 
 
 @media (min-width: 900px) {
+    .city {
+        float: left;
+        padding: .5em;
+        margin-bottom: -1em;
+    }
     .heyShorty {
+        text-align: left;
         overflow: hidden;
         height: 200px;
     }
