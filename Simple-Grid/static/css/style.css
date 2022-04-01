@@ -1,3 +1,7 @@
+.container {
+    padding-bottom: 1em;
+}
+
 .avatar, .city {
     width: 200px;
     height: 200px;
