@@ -51,9 +51,16 @@ th, td {
 @media (max-width: 688px) {
     .temp {
         float: left;
+        padding: 1em;
+    }
+    .heyShorty {
+        text-align: left;
     }
     .heaven img {
         float: right;
+    }
+    .hideMobile {
+        display: none;
     }
 }
 
@@ -62,7 +69,6 @@ th, td {
     .city {
         float: left;
         padding: .5em;
-        margin-bottom: -1em;
     }
     .heyShorty {
         text-align: left;
