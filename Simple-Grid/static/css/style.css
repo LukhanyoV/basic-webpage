@@ -1,16 +1,25 @@
-.container {
+.containMe {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containMe {
     padding-bottom: 1em;
 }
 
 .avatar, .city {
     width: 200px;
     height: 200px;
+    padding: 1em;
+    margin-bottom: -1em;
     object-fit: cover;
 }
 
 .temp {
     width: 170px;
     height: 170px;
+    padding: 1em;
+    margin-bottom: -1em;
     object-fit: cover;
 }
 
@@ -49,6 +58,9 @@ th, td {
 }
 
 @media (max-width: 688px) {
+    .city {
+        margin: 0 auto;
+    }
     .temp {
         float: left;
         padding: 1em;
@@ -70,9 +82,7 @@ th, td {
         float: left;
         padding: .5em;
     }
-    .heyShorty {
-        text-align: left;
-        overflow: hidden;
-        height: 200px;
+    .temp {
+        float: left;
     }
 }
